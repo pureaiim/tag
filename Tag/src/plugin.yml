@@ -1,0 +1,17 @@
+name: Tag
+version: 1.0
+author: PuReAiiM
+main: me.pureaiim.tag.main.Tag
+
+commands:
+  tag:
+    usage: /<command>
+    description: Main plugin command!
+    
+permissions:
+  tag.self:
+    default: op
+    description: Permission to use /tag on yourself!
+  tag.others:
+    default: op
+    description: Permission to use /tag on others!
